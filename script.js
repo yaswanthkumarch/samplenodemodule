@@ -1,6 +1,6 @@
 document.getElementById('callHttpTrigger').addEventListener('click', async () => {
     try {
-        const response = await fetch('<YOUR_HTTP_TRIGGER_URL>');
+        const response = await fetch('https://triger4wbapp.azurewebsites.net/api/HttpTrigger1?code=npPS_FeDHQ6_GFO2dZA0436j8SVxRj4187rwcLIw2ASXAzFuCmy2qQ%3D%3D');
         const data = await response.json();
         document.getElementById('httpResult').innerText = `HTTP Trigger Response: ${data.message}`;
     } catch (error) {
