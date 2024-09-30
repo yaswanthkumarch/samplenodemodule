@@ -7,15 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Azure Functions Trigger Demo</h1>
-        <button id="callHttpTrigger">Call HTTP Trigger</button>
-        <div id="httpResult"></div>
-        <button id="callTimerTrigger">Call Timer Trigger</button>
-        <div id="timerResult"></div>
-        <button id="callBlobTrigger">Call Blob Trigger</button>
-        <div id="blobResult"></div>
+    <h1>Azure Functions Trigger Demo</h1>
+    <div class="button-container">
+        <button id="callHttpTriggerButton">Call HTTP Trigger</button>
+        <button id="callTimerTriggerButton">Call Timer Trigger</button>
+        <button id="callBlobTriggerButton">Call Blob Trigger</button>
     </div>
+    <div id="responseMessage" class="message"></div>
     <script src="script.js"></script>
 </body>
 </html>
